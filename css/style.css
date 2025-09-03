@@ -1,0 +1,160 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.divh1_bobleponge{
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+.divh1_shrek{
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+}       
+
+
+
+.section_bobleponge{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section_bobleponge img{
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+
+.divh1{
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+.section_nav{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section_nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+.section_nav li{
+    display: inline;
+    margin: 0 15px;
+}
+.section_nav a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+.section_nav a:hover{
+    text-decoration:wavy underline;
+}       
+
+.connection_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.connection_section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: lightgrey;
+}
+.connection_section fieldset{
+    border: none;
+    margin-bottom: 10px;
+}
+
+.connection_section label{
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.connection_section input{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.connection_section button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.connection_section button:hover{
+    background-color: blue;
+}
+
+.connection_section a{
+    color: white;
+    text-decoration: none;
+}
+
+.img_section{
+    text-align: center;
+    margin-top: 20px;
+}       
+
+.divimg{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.divimg img{
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.divimg p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 2.5em;
+    color: darkblue;            
+    margin: 0;
+}   
+h2{
+    font-size: 2em;
+    color: darkblue;            
+    margin: 0;
+}
