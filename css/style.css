@@ -1,3 +1,4 @@
+/* style des section main */
 main{
     display: flex;
     flex-direction: column;
@@ -5,7 +6,10 @@ main{
     justify-content: center;
     width: 100%;
 }
+/* fin des style des section main */
 
+
+/* style des divisions qui contiennent les h1 des pages bobleponge et shrek */
 .divh1_bobleponge{
     background-color: yellow;
     border: 2px solid black;
@@ -23,6 +27,8 @@ main{
     text-align: center;
     width: 80%;
 }       
+/*fin du style des divisions qui contiennent les h1 des pages bobleponge et shrek */
+
 
 
 
