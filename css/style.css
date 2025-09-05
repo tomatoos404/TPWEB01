@@ -31,6 +31,18 @@ main{
 
 
 
+/* style des sections qui contiennent les images des pages bobleponge et shrek */
+.section_shrek{
+    text-align: center; 
+    margin-top: 20px;
+}
+.section_shrek img{
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
 
 .section_bobleponge{
     text-align: center;
@@ -44,7 +56,9 @@ main{
     border-radius: 10px;
 }
 
+/*fin du style des sections qui contiennent les images des pages bobleponge et shrek */
 
+/* style de la page choix du perso (page d'choixduperso) */
 
 .divh1{
     background-color: lightblue;
@@ -76,6 +90,11 @@ main{
 .section_nav a:hover{
     text-decoration:wavy underline;
 }       
+
+/* style de la page choix du perso (page d'choixduperso) */
+
+
+/* style de la page choix du perso (page d'choixduperso) */
 
 .connection_section{
     display: flex;
@@ -128,39 +147,30 @@ main{
     color: white;
     text-decoration: none;
 }
+/*fin du style de la page choix du perso (page d'choixduperso) */
 
-.img_section{
-    text-align: center;
-    margin-top: 20px;
-}       
 
-.divimg{
-    display: inline-block;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: lightgrey;
-}
-
-.divimg img{
-    width: 300px;
-    height: auto;
-    border: 2px solid black;
-    border-radius: 10px;
-}
-
-.divimg p{
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
+/* stle des h1 et h2 et a */
 h1{
     font-size: 2.5em;
-    color: darkblue;            
+    color: orangered;            
     margin: 0;
 }   
 h2{
     font-size: 2em;
+    color: orangered;            
+    margin: 0;
+}
+
+a{
+    font-size: 1.5em;
     color: darkblue;            
     margin: 0;
 }
+
+a:hover{
+    background-color: red;
+    color: black;
+}
+
+/* stle des h1 et h2 et a */
